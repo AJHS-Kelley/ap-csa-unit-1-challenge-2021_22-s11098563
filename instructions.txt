@@ -1,0 +1,147 @@
+#! Advanced Placement Computer Science A -- Unit 1 Challenge Instructions v0.99 !#
+
+This challenge requires an understanding of the Java topics learned in Unit 1.
+
+There are two scenarios described below.  
+Choose one of them to complete.
+You can complete both for extra credit.  
+
+Write a Java program that will complete the task described in the scenario. 
+
+Use the Unit1Challenge.java file to write your code.  
+Rename it to match the class requirement for each scenario.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Scenario 0 -- Game Programming -- Calculating Damage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Calculate the amount of damage dealt to an enemy monster during one round of 
+combat in a game.  One round of combat lasts 4 seconds.  
+
+The program should do the following:
+
+-- Ask the user for the name of the weapon or attack.  
+-- Ask the user for the name of the monster.
+-- Ask the user for the number of attacks to make. 
+-- Ask the user for the amount of damage dealt per attack.
+-- Calculate the total damage dealt in the round of combat.
+-- Display a message indicating the amount of damage dealt. 
+-- Calculate, with precision, the damage dealt per second.
+-- Display a message indicating the amount of damage dealt per second.
+
+The program has the following requirements:
+-- Class Name: DamageDealt
+-- There should be at least one empty line between user input and the next question. 
+-- Minimum of 10 separate commits with version numbers and summary / descriptions.
+
+
+There are two examples of correct program output below to help guide you. 
+
+Example Output 0:
+
+How many attacks will the player make?
+5
+
+How much damage will each attack do?
+62 
+
+What is the weapon or attack called?
+sword
+
+What is the name of the enemy?
+goblin
+
+You have dealt 310 damage with the sword to the goblin.
+You dealt 77.5 damage per second with the sword to the goblin.
+
+
+Example Output 1:
+
+Number of attacks?
+4
+
+Damage per attack?
+17
+
+What's getting hit?
+dragon
+
+What's it getting hit with?
+fireball
+
+The dragon takes 127 damage from the fireball. 
+The damage per second is 31.75 using the fireball to attack the dragon.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Scenario 1 -- Financial Programming -- Calculating Loans
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Write a program to calculate the monthly simple interest on a savings account.
+Use the following formula for simple interest:
+
+I = Prt 
+
+In this forumla the variables represent the following values: 
+I = interest
+P = principal (opening balance)
+r = rate of interest per year (as a decimal)
+t = time (convert 1 month to into years as a decimal)
+
+The program should do the following: 
+-- Ask the user for a 12 digit account number.  
+-- Ask the user for the name of the account owner.
+-- Ask the user for the opening balance of the correct account number. 
+-- Ask the user for the yearly interest rate percentage but exclude the % symbol.
+-- Convert the interest rate percentage to a decimal.  
+-- Calculate the simple monthly interest on the account balance. 
+-- Add the interest to the opening account balance. 
+-- Display a message indicating the opening balance and the account number.
+-- Display a message indicating the amount of interest earned and the new balance.
+-- Display a message thanking the owner for their business. 
+
+The program has the following requirements:
+-- Class Name: SavingsCalculator
+-- There should be at least one empty line between user input and the next question. 
+-- Minimum of 10 separate commits with version numbers and summary / descriptions.
+
+
+There are two examples of correct program output below to help guide you. 
+
+Example Output 0:
+
+Please type the 12-digit account number:
+0123456789012
+
+What is the name of the account owner?
+Charles Barles
+
+Enter the opening balance for Account #0123456789012.  Do not include $ or , please:
+123542.45
+
+Enter the current interest rate in percentage format.  Do not include the % please:
+1.23
+
+The opening balance for Account #0123456789012 is $123542.45.
+This account earned $126.54 in interest with a new balance of $123668.99. 
+Charles Barles, thank you for being a client and a friend of 1st World Bank.
+
+Example Output 1:
+
+Enter the account number now.  12-digits please:
+000000000001
+
+Account Owner's Name:
+Dent Arthur Dent
+
+Account #000000000001 Opening Balance. No $'s or ,'s or else I'll be sad:
+1.45
+
+Yearly Interest Rate Percentage. No % symbol or I may crash:
+123.4
+
+Account #000000000001 Opening Balance is $1.45. 
+$0.15 earned interest.  New Balance: $1.60.
+Thank you, Dent Arthur Dent, for letting 42nd Street Bank be YOUR bank!
+
+
+
+
