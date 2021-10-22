@@ -1,4 +1,4 @@
-// Connor Cook, AP CSA Unit 1 Challenge, Andrew Jackson High School, 10-22-2021, 9:14am, v0.8
+// Connor Cook, AP CSA Unit 1 Challenge, Andrew Jackson High School, 10-22-2021, 9:18am, v0.9
 // Peer Debugging, Maxx Secrest
 import java.util.Scanner;
 
@@ -21,6 +21,10 @@ public class DamageDealt {
         // Damage per attack
         System.out.println("How much damage will each attack do?");
         Double damage = myScanner.nextDouble();
+
+        // Total damage during combat
+        Double totalDmg = numAttacks * damage;
+        System.out.println("You did " + totalDmg + " damage to the " + monster + " with your " + weapon);
 
     }
 }
