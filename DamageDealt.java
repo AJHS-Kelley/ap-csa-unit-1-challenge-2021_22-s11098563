@@ -1,4 +1,4 @@
-// Connor Cook, AP CSA Unit 1 Challenge, Andrew Jackson High School, 10-22-2021, 9:21am, v1.0
+// Connor Cook, AP CSA Unit 1 Challenge, Andrew Jackson High School, 10-22-2021, 9:24am, v1.1
 // Peer Debugging, Maxx Secrest
 import java.util.Scanner;
 
@@ -11,24 +11,24 @@ public class DamageDealt {
         String weapon = myScanner.nextLine();
 
         // Monster attacked
-        System.out.println("What monster is being attacked?");
+        System.out.println("\nWhat monster is being attacked?");
         String monster = myScanner.nextLine();
 
         // Number of attacks
-        System.out.println("How many attacks will you make with your " + weapon + "?");
+        System.out.println("\nHow many attacks will you make with your " + weapon + "?");
         Integer numAttacks = myScanner.nextInt();
 
         // Damage per attack
-        System.out.println("How much damage will each attack do?");
+        System.out.println("\nHow much damage will each attack do?");
         Double damage = myScanner.nextDouble();
 
         // Total damage during combat
         Double totalDmg = numAttacks * damage;
-        System.out.println("You did " + totalDmg + " damage to the " + monster + " with your " + weapon);
+        System.out.println("\nYou did " + totalDmg + " damage to the " + monster + " with your " + weapon);
 
         // Damage per second
         Double dps = totalDmg / 4;
-        System.out.println("During combat you did " + dps + " damage per second.");
+        System.out.println("\nDuring combat you did " + dps + " damage per second.\n");
 
     }
 }
