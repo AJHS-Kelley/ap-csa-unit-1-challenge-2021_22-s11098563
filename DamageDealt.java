@@ -1,5 +1,5 @@
 // Connor Cook, AP CSA Unit 1 Challenge, Andrew Jackson High School, 10-20-2021, 8:58am, v0.6
-
+// Peer Debugging, Maxx Secrest
 import java.util.Scanner;
 
 public class DamageDealt {
